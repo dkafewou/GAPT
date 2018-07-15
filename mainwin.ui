@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>principale</class>
+ <widget class="QMainWindow" name="principale">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>808</width>
+    <height>462</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion intégré</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icone/icone/sazof.png</normaloff>:/icone/icone/sazof.png</iconset>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>36</width>
+    <height>36</height>
+   </size>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>808</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="windowTitle">
+    <string>MainWindowToolBar</string>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionAgent"/>
+   <addaction name="actionDepartement"/>
+   <addaction name="separator"/>
+   <addaction name="actionDossier"/>
+  </widget>
+  <action name="actionAgent">
+   <property name="icon">
+    <iconset resource="Res.qrc">
+     <normaloff>:/icones/Icones/People.png</normaloff>:/icones/Icones/People.png</iconset>
+   </property>
+   <property name="text">
+    <string>Agent</string>
+   </property>
+  </action>
+  <action name="actionDepartement">
+   <property name="icon">
+    <iconset resource="Res.qrc">
+     <normaloff>:/icones/Icones/29-House-icon.png</normaloff>:/icones/Icones/29-House-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Departement</string>
+   </property>
+  </action>
+  <action name="actionDossier">
+   <property name="icon">
+    <iconset resource="Res.qrc">
+     <normaloff>:/icones/Icones/folderopen.ico</normaloff>:/icones/Icones/folderopen.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Dossier</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
