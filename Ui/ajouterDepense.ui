@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ajoutDepense</class>
+ <widget class="QDialog" name="ajoutDepense">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>97</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Depense</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Libelle</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Montant</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="libelleEdit"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="montantEdit"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btValider">
+       <property name="text">
+        <string>Valider</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Res.qrc">
+         <normaloff>:/icones/Icones/15-Tick-icon.png</normaloff>:/icones/Icones/15-Tick-icon.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btAnnuler">
+       <property name="text">
+        <string>Annuler</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Res.qrc">
+         <normaloff>:/icones/Icones/19-Left-Arrow-icon.png</normaloff>:/icones/Icones/19-Left-Arrow-icon.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btFermer">
+       <property name="text">
+        <string>Fermer</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Res.qrc">
+         <normaloff>:/icones/Icones/gnome_application_exit.png</normaloff>:/icones/Icones/gnome_application_exit.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../Res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btAnnuler</sender>
+   <signal>clicked()</signal>
+   <receiver>montantEdit</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>273</x>
+     <y>75</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>248</x>
+     <y>43</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btAnnuler</sender>
+   <signal>clicked()</signal>
+   <receiver>libelleEdit</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>290</x>
+     <y>77</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>287</x>
+     <y>14</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btFermer</sender>
+   <signal>clicked()</signal>
+   <receiver>ajoutDepense</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>340</x>
+     <y>79</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>89</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gesAgent</class>
+ <widget class="QDialog" name="gesAgent">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>912</width>
+    <height>566</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion des Agents</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QComboBox" name="categorieComboBox">
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="toolTip">
+          <string>Categorie</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="sexeComboBox">
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="toolTip">
+          <string>Sexe</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Tout</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Masculin</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Feminin</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="nomEdit">
+         <property name="placeholderText">
+          <string>Nom</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="prenomEdit">
+         <property name="placeholderText">
+          <string>Prenom</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btActualiser">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../Res.qrc">
+           <normaloff>:/icones/Icones/view-refresh.png</normaloff>:/icones/Icones/view-refresh.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableView" name="agentTableView">
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::SingleSelection</enum>
+       </property>
+       <property name="selectionBehavior">
+        <enum>QAbstractItemView::SelectRows</enum>
+       </property>
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>true</bool>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="btNouveau">
+       <property name="text">
+        <string>Nouveau</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Res.qrc">
+         <normaloff>:/icones/Icones/add.ico</normaloff>:/icones/Icones/add.ico</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btModifer">
+       <property name="text">
+        <string>Modifier</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Res.qrc">
+         <normaloff>:/icones/Icones/05-Edit-icon.png</normaloff>:/icones/Icones/05-Edit-icon.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btAffecter">
+       <property name="text">
+        <string>Affecter</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Res.qrc">
+         <normaloff>:/icones/Icones/ok.ico</normaloff>:/icones/Icones/ok.ico</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btNommer">
+       <property name="text">
+        <string>Nommer</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Res.qrc">
+         <normaloff>:/icones/Icones/perso2.jpg</normaloff>:/icones/Icones/perso2.jpg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btMouvement">
+       <property name="text">
+        <string>Mouvement</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Res.qrc">
+         <normaloff>:/icones/Icones/mouvement.jpg</normaloff>:/icones/Icones/mouvement.jpg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btBulletin">
+       <property name="text">
+        <string>Bulletin</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Res.qrc">
+         <normaloff>:/icones/Icones/gnome_application_certificate.png</normaloff>:/icones/Icones/gnome_application_certificate.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btApercu">
+       <property name="text">
+        <string>Aperçu</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Res.qrc">
+         <normaloff>:/icones/Icones/search4people.ico</normaloff>:/icones/Icones/search4people.ico</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btSupprimer">
+       <property name="text">
+        <string>Supprimer</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../Res.qrc">
+         <normaloff>:/icones/Icones/14-Delete-icon.png</normaloff>:/icones/Icones/14-Delete-icon.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../Res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

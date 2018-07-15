@@ -1,0 +1,191 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>Icones/01-Warning-icon.png</file>
+        <file>Icones/02-Recycle-icon.png</file>
+        <file>Icones/04-Save-icon.png</file>
+        <file>Icones/05-Edit-icon.png</file>
+        <file>Icones/07-Draw-icon.png</file>
+        <file>Icones/10-Search-icon.png</file>
+        <file>Icones/14-Delete-icon.png</file>
+        <file>Icones/15-Tick-icon.png</file>
+        <file>Icones/19-Left-Arrow-icon.png</file>
+        <file>Icones/20-Right-Arrow-icon.png</file>
+        <file>Icones/21-Up-Arrow-icon.png</file>
+        <file>Icones/22-Down-Arrow-icon.png</file>
+        <file>Icones/29-House-icon.png</file>
+        <file>Icones/91PandaHome.png</file>
+        <file>Icones/add.ico</file>
+        <file>Icones/Albums.png</file>
+        <file>Icones/application.png</file>
+        <file>Icones/application_vnd_oasis_opendocument_database.png</file>
+        <file>Icones/application_x_bittorrent.png</file>
+        <file>Icones/application_x_ms_dos_executable.png</file>
+        <file>Icones/applications_engineering.png</file>
+        <file>Icones/applications_folder.png</file>
+        <file>Icones/applications_system.png</file>
+        <file>Icones/applications_utilities.png</file>
+        <file>Icones/arrow_down_32.png</file>
+        <file>Icones/arrow_down_64.png</file>
+        <file>Icones/arrow_up_32.png</file>
+        <file>Icones/arrow_up_64.png</file>
+        <file>Icones/Astro.png</file>
+        <file>Icones/bag1_32.png</file>
+        <file>Icones/bag1_64.png</file>
+        <file>Icones/bag2_32.png</file>
+        <file>Icones/Bardcode Scanner.png</file>
+        <file>Icones/Bleu foncé.ico</file>
+        <file>Icones/Bordeaux.ico</file>
+        <file>Icones/Bouteille.ico</file>
+        <file>Icones/box_64.png</file>
+        <file>Icones/Browser.png</file>
+        <file>Icones/bubble_32.png</file>
+        <file>Icones/Calculator.png</file>
+        <file>Icones/Calendar.png</file>
+        <file>Icones/Calender.png</file>
+        <file>Icones/Camcorder.png</file>
+        <file>Icones/Camera.png</file>
+        <file>Icones/Clock.png</file>
+        <file>Icones/Compass.png</file>
+        <file>Icones/Contacts.png</file>
+        <file>Icones/credit_card_32.png</file>
+        <file>Icones/croix.ico</file>
+        <file>Icones/cup_32.png</file>
+        <file>Icones/cup_64.png</file>
+        <file>Icones/delete.ico</file>
+        <file>Icones/document_pencil_32.png</file>
+        <file>Icones/Droid Alt.png</file>
+        <file>Icones/Droid.png</file>
+        <file>Icones/Email.png</file>
+        <file>Icones/Emeraude.ico</file>
+        <file>Icones/error.ico</file>
+        <file>Icones/Facebook.png</file>
+        <file>Icones/folderopen.ico</file>
+        <file>Icones/Gallery.png</file>
+        <file>Icones/Gmail.png</file>
+        <file>Icones/gnome_application_certificate.png</file>
+        <file>Icones/gnome_application_exit.png</file>
+        <file>Icones/gnome_applications_other.png</file>
+        <file>Icones/gnome_mime_application_pdf.png</file>
+        <file>Icones/gnome_mime_application_pgp_encrypted.png</file>
+        <file>Icones/gnome_mime_application_qif.png</file>
+        <file>Icones/gnome_mime_application_x_lhz.png</file>
+        <file>Icones/Google Talk.png</file>
+        <file>Icones/Google.png</file>
+        <file>Icones/Gtalk.png</file>
+        <file>Icones/Home Blue Alt.png</file>
+        <file>Icones/Home Blue.png</file>
+        <file>Icones/Home Green Alt.png</file>
+        <file>Icones/Home Green.png</file>
+        <file>Icones/Home Red Alt.png</file>
+        <file>Icones/Home Red.png</file>
+        <file>Icones/hotplug.ico</file>
+        <file>Icones/IM.png</file>
+        <file>Icones/Java.png</file>
+        <file>Icones/kappfinder.png</file>
+        <file>Icones/key_32.png</file>
+        <file>Icones/Last.fm.png</file>
+        <file>Icones/Mail.png</file>
+        <file>Icones/Maps.png</file>
+        <file>Icones/Market.png</file>
+        <file>Icones/megaphone_32.png</file>
+        <file>Icones/Messages.png</file>
+        <file>Icones/money_32.png</file>
+        <file>Icones/MoreLocale.png</file>
+        <file>Icones/Music.png</file>
+        <file>Icones/myspace.png</file>
+        <file>Icones/Noir.ico</file>
+        <file>Icones/Notes.png</file>
+        <file>Icones/Oie.ico</file>
+        <file>Icones/ok.ico</file>
+        <file>Icones/Orange.ico</file>
+        <file>Icones/Password Vault.png</file>
+        <file>Icones/PDF Viewer.png</file>
+        <file>Icones/People.png</file>
+        <file>Icones/Phone.png</file>
+        <file>Icones/phone_32.png</file>
+        <file>Icones/photo_32.png</file>
+        <file>Icones/Rose.ico</file>
+        <file>Icones/Rouge foncé.ico</file>
+        <file>Icones/RSS.png</file>
+        <file>Icones/save.ico</file>
+        <file>Icones/Screenshot.png</file>
+        <file>Icones/search4people.ico</file>
+        <file>Icones/Settings.png</file>
+        <file>Icones/settings_32.png</file>
+        <file>Icones/settings_64.png</file>
+        <file>Icones/SIM Toolkit.png</file>
+        <file>Icones/Sky Map.png</file>
+        <file>Icones/Skype.png</file>
+        <file>Icones/SMS.png</file>
+        <file>Icones/Superuser Permissions.png</file>
+        <file>Icones/Tasks.png</file>
+        <file>Icones/Teeter.png</file>
+        <file>Icones/Tether.png</file>
+        <file>Icones/Twitter.png</file>
+        <file>Icones/user.ico</file>
+        <file>Icones/user_anonymous_32.png</file>
+        <file>Icones/user_anonymous_64.png</file>
+        <file>Icones/user_info_32.png</file>
+        <file>Icones/user1_32.png</file>
+        <file>Icones/user1_64.png</file>
+        <file>Icones/user2_32.png</file>
+        <file>Icones/user2_64.png</file>
+        <file>Icones/user3_64.png</file>
+        <file>Icones/user5_32.png</file>
+        <file>Icones/user7_64.png</file>
+        <file>Icones/users.ico</file>
+        <file>Icones/Voice Recorder.png</file>
+        <file>Icones/Voice Search.png</file>
+        <file>Icones/Voice.png</file>
+        <file>Icones/wand_32.png</file>
+        <file>Icones/Weather.png</file>
+        <file>Icones/Youtube.png</file>
+        <file>Icones/key_64.png</file>
+        <file>Icones/lock_64.png</file>
+        <file>Icones/megaphone_64.png</file>
+        <file>Icones/star1_64.png</file>
+        <file>Icones/star2_64.png</file>
+        <file>Icones/batiment-image-png.png</file>
+        <file>Icones/batiment-medecine-pharmacie-image-png.png</file>
+        <file>Icones/batiment-station-essence-image-png.png</file>
+        <file>Icones/especes-monnaie-sac-a-main-portefeuille-image-png.png</file>
+        <file>Icones/imgres.jpg</file>
+        <file>Icones/imgres1.jpg</file>
+        <file>Icones/imgres2.jpg</file>
+        <file>Icones/imgres3.jpg</file>
+        <file>Icones/microsoft-office-3-image-png.png</file>
+        <file>Icones/sac-tresorerie-argent-image-png.png</file>
+        <file>Icones/transport-camion-vehicule-jaune-icone-4890-128.png</file>
+        <file>Icones/doss1.jpg</file>
+        <file>Icones/doss2.jpg</file>
+        <file>Icones/doss3.jpg</file>
+        <file>Icones/doss4.jpg</file>
+        <file>Icones/perso.jpg</file>
+        <file>Icones/perso1.jpg</file>
+        <file>Icones/perso2.jpg</file>
+        <file>Icones/perso4.jpg</file>
+        <file>Icones/perso5.jpg</file>
+        <file>Icones/perso6.jpg</file>
+        <file>Icones/util1.jpg</file>
+        <file>Icones/util2.jpg</file>
+        <file>Icones/cam1.jpg</file>
+        <file>Icones/form (2).jpg</file>
+        <file>Icones/form.jpg</file>
+        <file>Icones/quit2.jpg</file>
+        <file>Icones/quit3.jpg</file>
+        <file>Icones/trans.jpg</file>
+        <file>Icones/sanc.jpg</file>
+        <file>Icones/mp1.jpg</file>
+        <file>Icones/mp2.jpg</file>
+        <file>Icones/depart.jpg</file>
+        <file>Icones/desUser.jpg</file>
+        <file>Icones/moduser.jpg</file>
+        <file>Icones/suprUser.jpg</file>
+        <file>Icones/block.png</file>
+        <file>Icones/blockd.png</file>
+        <file>Icones/view-refresh.png</file>
+        <file>Icones/mouvement.jpg</file>
+        <file>Icones/lo2.gif</file>
+        <file>Icones/00.png</file>
+    </qresource>
+</RCC>
